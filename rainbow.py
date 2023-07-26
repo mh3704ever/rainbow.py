@@ -7,6 +7,7 @@ turtle.goto(-300, 0)
 turtle.pendown()
 turtle.width(50)
 
+
 for color in colors:
     turtle.color(color)
     turtle.forward(600/len(colors))
